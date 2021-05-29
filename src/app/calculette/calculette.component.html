@@ -1,0 +1,14 @@
+
+
+op1<input type="text" [(ngModel)]="op1"/><br/>
+op2<input type="text" [(ngModel)]="op2"/><br/>
+<hr/>
+
+<input type="radio" name="op" (click)="operation('additioner')"/> :additionner
+<input type="radio" name="op" (click)="operation('suppression')"/> :suppresion
+<input type="radio" name="op" (click)="operation('produit')"/> :produit
+
+
+<div >
+{{resultat}}
+</div>
